@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header{
+  text-align: center;
+  font-family: Verdana;
+  background-color: chocolate;
+}
+body {
+  
+  background-image: url("/imagenes/arg.jpg");
+  padding: 2rem;
+  margin: 0rem;
+}
+#IMGMenu{
+  width: 19%;
+  height: auto;
+    border: 5px solid #ceaf29;
+    margin: 0rem;
+    padding: 0rem;
+    width: 10%;
+  
+    float: left;
+border-radius: 60px;
+
+
+
+}
+body
+{
+background-color: peru;
+
+}
+
+h3
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

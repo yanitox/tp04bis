@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asd</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Mi página de Paises</h1>
+
+    @foreach (Pais item in ViewBag.ListaPaises)
+    {
+        <a href='@Url.Action("DetallePais" ,new {Pais= item.Nombre})'>
+            <img id="IMGMenu" src="/imagenes/@item.ImgBandera">
+            
+        </a>
+    }
+
+
+
+</html>
